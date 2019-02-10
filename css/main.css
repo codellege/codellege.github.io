@@ -97,6 +97,7 @@ div.bg-header {
     background: #FFFFFF10;
 }
 
+
 /*
 ----------------------------------------
 ARTICLE GIT REPOS
@@ -135,6 +136,10 @@ section {
     border:1px solid #2091EB;
 }
 
+.card h5 span {
+    font-size: .8em;
+    color: #9CB33E;
+}
 .card p {
     margin-top: 10px;
 }
