@@ -97,7 +97,7 @@ div.bg-header {
 ARTICLE GIT REPOS
 ----------------------------------------
 */
-.repository {
+section {
     padding: 3rem;
 }
 
@@ -143,7 +143,14 @@ ARTICLE GIT REPOS
     background: rgb(37, 41, 46);
 }
 
-
+.card-img-top {
+    background: #000;
+    background-position: center;
+    background-size: cover;
+}
+.row:nth-of-type(1) .card:nth-of-type(1) .card-img-top{
+    background-image: url(/assets/img/rotate.gif);
+}
 
 /*
 ----------------------------------------
