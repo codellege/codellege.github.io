@@ -13,12 +13,17 @@ body {
     background: #24292E;
 }
 
+section {
+    padding: 3rem;
+}
+
 h1 {
     color: #F9F9FA;
     font-size: 5em;
     font-weight: 900;
 }
-p{
+
+p {
     color: #ffffffc2;
 }
 
@@ -42,7 +47,7 @@ HEADER AND NAV
 /*OVERRIDES*/
 .nav-wrapper {
     background: #24292E;
-    position: sticky!important;
+    position: sticky !important;
 }
 
 .brand-logo {
@@ -56,7 +61,6 @@ HEADER AND NAV
 
 /*HEADER*/
 div.bg-header {
-
 
     background-image: url(/assets/img/DSC_0011.jpg);
     background-size: cover;
@@ -103,13 +107,24 @@ div.bg-header {
 ARTICLE GIT REPOS
 ----------------------------------------
 */
-section {
-    padding: 3rem;
+#myInput {
+    border-bottom: none;
+    box-shadow: none;
+    background: #31363B;
+    border-radius: 5px;
+    padding: 0 10px;
+    margin: 10px;
+}
+
+#myInput:focus {
+    border-bottom: none;
+    box-shadow: none;
 }
 
 .card {
+    display: '';
     border: none;
-    background: rgb(49, 54, 59);
+    background: #31363b;
 }
 
 .card-img-top {
@@ -129,20 +144,22 @@ section {
 }
 
 .card .html {
-    border:1px solid orange;
+    border: 1px solid orange;
 }
 
 .card .css {
-    border:1px solid #2091EB;
+    border: 1px solid #2091EB;
 }
 
 .card h5 span {
     font-size: .8em;
     color: #9CB33E;
 }
+
 .card p {
     margin-top: 10px;
 }
+
 .card .btn {
     box-shadow: none;
     border: 1px solid white !important;
@@ -159,7 +176,8 @@ section {
     background-position: center;
     background-size: cover;
 }
-.row:nth-of-type(1) .card:nth-of-type(1) .card-img-top{
+
+.row:nth-of-type(2) .card:nth-of-type(1) .card-img-top {
     background-image: url(/assets/img/rotate.gif);
 }
 

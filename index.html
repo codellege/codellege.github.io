@@ -13,14 +13,7 @@
         crossorigin="anonymous">
     <!--CSS-->
     <link rel="stylesheet" href="css/main.css">
-    <!-- JS CDNs -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    
     <!-- Page title -->
     <title>Codellege</title>
     <!--Header and Nav-->
@@ -55,8 +48,11 @@
     </div>
     <article>
 
-        <section class="repository">
-            <h2><span class="fab fa-github"></span> GitHub Repositories</h2>
+        <section id="repository">
+            <div class="row">
+                <h2 class="col"><span class="fab fa-github"></span> GitHub Repositories</h2>
+                <input class="col-md-3 mx-4 " type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for Repositories..">
+            </div>
             <div class="row">
                 <div class="card m-2 p-0 col-lg">
                     <div class="card-img-top"></div>
@@ -67,7 +63,8 @@
                             the
                             card's content.</p>
                         <a class="waves-effect waves-light btn">DEMO</a>
-                        <a class="waves-effect waves-light btn" href="https://github.com/codellege/codellege.github.io/tree/master/demos/" target="_blank">CODE</a>
+                        <a class="waves-effect waves-light btn" href="https://github.com/codellege/codellege.github.io/tree/master/demos/"
+                            target="_blank">CODE</a>
                     </div>
                 </div>
                 <div class="card m-2 p-0 col-lg">
@@ -78,7 +75,7 @@
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the
                             card's content.</p>
-                            <a class="waves-effect waves-light btn">DEMO</a>
+                        <a class="waves-effect waves-light btn">DEMO</a>
                         <a class="waves-effect waves-light btn">CODE</a>
                     </div>
                 </div>
@@ -100,7 +97,6 @@
                 <div class="card m-2 p-0 col-lg">
                     <div class="card-img-top"></div>
                     <div class="card-body">
-
                         <h5 class="card-title">Card title</h5>
                         <a class="html">html</a><a class="css">css</a>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
@@ -144,6 +140,15 @@
             <h2><span class="fab fa-github"></span> GitHub Profiles</h2>
         </section>
     </article>
+    <!-- JS CDNs -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
