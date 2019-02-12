@@ -186,6 +186,9 @@ ARTICLE GIT REPOS
 .row:nth-of-type(2) .card:nth-of-type(2) .card-img-top {
     background-image: url(/assets/img/ring.gif);
 }
+.row:nth-of-type(2) .card:nth-of-type(3) .card-img-top {
+    background-image: url(/assets/img/border.gif);
+}
 /*
 ----------------------------------------
 ANIMATIONS
